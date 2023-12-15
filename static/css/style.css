@@ -1,0 +1,67 @@
+body {
+    color: #d7d7d7;
+    font-size: 0.875rem;
+    background-color: #121212; /* Dark background for Cyberpunk theme */
+}
+
+.navbar {
+    background-color: #212529; /* Dark navbar */
+    color: #000;
+}
+
+.cyberpunk-btn {
+    color: #7f00ff; /* Neon purple */
+    transition: color 0.5s;
+}
+
+.cyberpunk-btn:hover {
+    color: #e100ff; /* Brighter neon on hover */
+}
+
+.content-section {
+    padding: 20px;
+    background-color: #333; /* Dark content background */
+    border-radius: 5px;
+    margin-bottom: 20px;
+    color: #fff; /* White text for contrast */
+}
+
+.container {
+    text-align: center;
+}
+#webcam-container {
+    margin-top: 15px;
+    position: relative;
+    display: inline-block;
+}
+
+video {
+    width: 640px;
+    height: 480px;
+}
+
+#flipButton {
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+    opacity: 0.8;
+}
+
+video.mirrored {
+    transform: scaleX(-1);
+}
+
+/* CSS rules for centering content on the 404 page */
+.centered-content {
+    font-size: 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* Full viewport height */
+    text-align: center;
+}
+
+#runInferenceButton {
+    margin-left: 10px; 
+}
